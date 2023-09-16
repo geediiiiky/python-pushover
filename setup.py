@@ -17,7 +17,7 @@ setup(
     author_email="thibaut.horel+pushover@gmail.com",
     py_modules=["pushover", "cli"],
     entry_points={"console_scripts": ["pushover = cli:main"]},
-    install_requires=["requests>=1.0"],
+    install_requires=["requests"],
     use_2to3=True,
     license="GNU GPLv3",
 )
